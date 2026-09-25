@@ -9,15 +9,20 @@ A responsive cake shopping website built for **Java Web Development Homework 1**
 
 ## Visual Demo
 
-Sweet Delight Bakery uses a dark, elegant bakery theme with rich red accents, glassmorphism cards, responsive layouts, and product-focused imagery.
+Sweet Delight Bakery uses a dark, elegant bakery theme with rich red accents, glassmorphism cards, and product-focused layouts.
 
-### Home Page Preview
+All screenshots below are real browser captures from this repository’s Next.js app.
 
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=85" alt="Chocolate cake representing the Sweet Delight Bakery home page" width="850" />
-</p>
+### Application Screenshots
 
-<p align="center"><em>Featured Belgian dark truffle mousse cake used in the homepage hero section.</em></p>
+| Page | Screenshot |
+| --- | --- |
+| Home (`/`) | [![Home page screenshot](./docs/screenshots/home.png)](./docs/screenshots/home.png) |
+| Categories (`/categories`) | [![Categories page screenshot](./docs/screenshots/categories.png)](./docs/screenshots/categories.png) |
+| Best Sellers (`/hot`) | [![Hot products page screenshot](./docs/screenshots/hot.png)](./docs/screenshots/hot.png) |
+| New Arrivals (`/new`) | [![New products page screenshot](./docs/screenshots/new.png)](./docs/screenshots/new.png) |
+| Register (`/register`) | [![Register page screenshot](./docs/screenshots/register.png)](./docs/screenshots/register.png) |
+| Login (`/login`) | [![Login page screenshot](./docs/screenshots/login.png)](./docs/screenshots/login.png) |
 
 ### Experience Highlights
 
@@ -29,8 +34,6 @@ Sweet Delight Bakery uses a dark, elegant bakery theme with rich red accents, gl
 | **New arrivals** | Seasonal and recently added cakes are presented in a separate collection. |
 | **Account experience** | Registration and login pages provide a clear customer entry point. |
 | **Responsive interface** | Layouts adapt across mobile, tablet, and desktop screen sizes. |
-
-> **Note:** The repository currently contains the application source and product imagery rather than captured browser screenshots. The visual preview above uses the same cake imagery featured by the homepage. To add exact browser screenshots, save captures to `docs/screenshots/` and replace the preview image with those files.
 
 ## Overview
 

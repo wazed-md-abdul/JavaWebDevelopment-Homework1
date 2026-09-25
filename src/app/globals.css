@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --color-noir: #000000;
+  --color-maroon: #830000;
+  --color-crimson: #BC0202;
+  --color-scarlet: #FF0000;
+  
+  --bg-primary: #000000;
+  --bg-secondary: #0A0202;
+  --bg-card: rgba(18, 4, 4, 0.75);
+  
+  --text-primary: #FFFFFF;
+  --text-secondary: #D4B8B8;
+  --text-muted: #8E7A7A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+
+  body {
+    background-color: #000000;
+    color: #FFFFFF;
+    min-height: 100vh;
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(131, 0, 0, 0.25), transparent),
+      radial-gradient(ellipse 60% 40% at 50% 120%, rgba(188, 2, 2, 0.15), transparent);
+    background-attachment: fixed;
+  }
+}
+
+/* Custom velvet red scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #830000;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BC0202;
+}
